@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './pages/Home';
 import BeginnerPage from './pages/Beginner';
+import Advance from './pages/Advance';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage/>} />
           <Route path="/beginner" element={<BeginnerPage/>} />
+          <Route path="/advance" element={<Advance/>} />
         </Routes>
         <Footer />
       </div>
